@@ -6,6 +6,59 @@
     --dark: #0E2E50;
 }
 
+*{
+    font-family: "Vollkorn", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal; 
+}
+
+h1, h2, h3{
+    font-family: "Pacifico", cursive !important;
+    font-weight: 400 !important;
+    font-style: normal !important; 
+}
+
+
+.appwex-color1{
+    color:#a1875c !important;
+}
+
+.appwex-color2{
+    color:#473a22 !important;
+}
+
+.appwex-color3{
+    color:#9aa7bc !important;
+}
+
+.appwex-color4{
+    color:#c3b6b9 !important;
+}
+
+.appwex-color5{
+    color:#8494b4 !important;
+}
+
+.appwex-background1{
+    background-color:#a1875c;
+}
+
+.appwex-background2{
+    background-color:#473a22 !important;
+}
+
+.appwex-background3{
+    background-color:#9aa7bc !important;
+}
+
+.appwex-background4{
+    background-color:#c3b6b9 !important;
+}
+
+.appwex-background5{
+    background-color:#8494b4 !important;
+}
 /* :root {
     --primary: #513252;
     --secondary: #7A4069;
@@ -13,6 +66,19 @@
     --dark: #FFC18E;
 } */
 
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .vollkorn-appwex{
+    font-family: "Vollkorn", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
 .back-to-top {
     position: fixed;
     display: none;
@@ -75,10 +141,13 @@
 
 
 /*** Navbar ***/
+.nav-padding-appwex{
+    padding:0px !important;
+}
 .nav-bar {
     position: relative;
-    margin-top: 45px;
-    padding: 0 3rem;
+    /* margin-top: 45px;
+    padding: 0 3rem; */
     transition: .5s;
     z-index: 9999;
 }
@@ -240,9 +309,10 @@
     left: -50%;
     width: 100%;
     height: 100%;
-    background: var(--primary);
-    transform: skew(20deg);
+    background:#473a22;
+    transform: skew(60deg);
     z-index: 1;
+    border-radius: 50%;
 }
 
 
